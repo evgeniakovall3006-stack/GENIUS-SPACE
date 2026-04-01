@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-.parent {
-    padding: 20px;
+.container {
+    padding: 30px;
 border: 1px dotted black; 
 }   
 
@@ -12,6 +12,8 @@ border: 1px dotted black;
     width: 150px;
     height: 150px;
     background-color: red;
+    color: white;
+    overflow:  auto;
 }
 
 .item.green {    
@@ -25,3 +27,6 @@ border: 1px dotted black;
     height: 50px;
     background-color: blue;
 }   
+.section-title {
+    background-color: burlywood ;
+}
